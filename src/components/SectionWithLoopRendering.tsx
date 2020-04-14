@@ -18,22 +18,22 @@ export default class SectionWithLoopRendering extends React.Component<ISectionWi
         this.state = {
             userProfiles: [
                 {
-                    id: 1,
-                    birthday: "04-09-2020",
-                    favoritePizza: "pineapples",
-                    name: "Name1"
+                    username: "alpha",
+                    name: "Anna Apple",
+                    height: "165 cm",
+                    hairColour: "black"
                 },
                 {
-                    id: 2,
-                    birthday: "01-01-0001",
-                    favoritePizza: "pepperoni",
-                    name: "Name2"
+                    username: "beta",
+                    name: "Bob Bell",
+                    height: "175 cm",
+                    hairColour: "brown"
                 },
                 {
-                    id: 3,
-                    birthday: "07-07-007",
-                    favoritePizza: "cheese",
-                    name: "Name3"
+                    username: "delta",
+                    name: "Chris Corner",
+                    height: "170 cm",
+                    hairColour: "blond"
                 }
             ]
         }

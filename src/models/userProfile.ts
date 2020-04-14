@@ -1,6 +1,6 @@
 export interface IUserProfile {
-    id: number;
-    birthday: string;
-    favoritePizza: string;
+    username: string;
     name: string;
+    height: string;
+    hairColour: string;
 }
